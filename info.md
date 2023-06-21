@@ -6,3 +6,7 @@
 * uncontrolled = Buscamos a informação do valor do input somente quando precisarmos dela, Ou seja não monitoramos os valores em tempo real
     -Ou seja eu pegaria a informação apenas no submit, assim como fazemos no HTML e JavaScript puro
     -O que perco? A fluidez, de tipo o valor ta vazio desabilito, digitou, habilito e etc, mas eu ganho em performance
+
+* Context API 
+    - Permite compartilharmos informações entre vários componentes ao mesmo
+    - Não precisa de props, todos os componentes podem modificar essas informações e todos os componentes dependentes são atualizados
